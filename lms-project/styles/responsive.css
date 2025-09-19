@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
