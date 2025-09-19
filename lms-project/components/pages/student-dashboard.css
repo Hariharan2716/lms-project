@@ -1,0 +1,33 @@
+.student-dashboard {
+  padding: 20px;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Card adjustments inside student dashboard */
+.student-dashboard .card {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .student-dashboard {
+    padding: 10px;
+  }
+
+  .dashboard-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .student-dashboard .card {
+    width: 100%;
+    margin: 0;
+  }
+}
