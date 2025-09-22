@@ -4,6 +4,7 @@ import React, {useState} from "react";
 import InputField from "../../components/global/input-fields";
 import Button from "../../components/global/button";
 
+
 export default function SignupPage(){
   const [formData, setFormData] = useState({
     name: "",
